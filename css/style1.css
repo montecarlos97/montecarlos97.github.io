@@ -1,0 +1,49 @@
+*{
+	box-sizing: 100%
+}
+body{
+	background-image: url('../images/home.jpg');
+	position: absolute;
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+}
+span{
+	background-color: white;
+	font-size: 40px;
+}
+.container{
+	float: left;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	font-size: 40px	;
+	color: blue;
+}
+.list{
+	font-size: 30px;
+}
+.datalist{
+	font-size: 30px;
+}
+.imagery{
+	position: relative;
+}
+.center{
+	background-color: black;
+	font-size: 100px;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+}
+.background{
+	background-color: #F0F8FF;
+}
+.last{
+	background-color: #A9A9A9;
+}
+.nexttolast{
+	background-color: black;
+	color: blue;
+}
