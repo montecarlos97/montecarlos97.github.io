@@ -63,3 +63,6 @@ a:visited{
 a:hover{
 	color: hotpink;
 }
+.end{
+	float: left;
+}
