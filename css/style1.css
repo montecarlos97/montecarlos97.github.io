@@ -10,7 +10,12 @@ body{
 }
 span{
 	background-color: white;
-	font-size: 40px;
+	font-size: 60px;
+}
+.float{
+	float: left;
+	width: 30%;
+	background-color: black;
 }
 a{
 	text-decoration: none;
@@ -43,4 +48,18 @@ a{
 .nexttolast{
 	background-color: black;
 	color: blue;
+}
+
+
+a:link{
+	color: red;
+}
+a:active{
+	color: blue;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: hotpink;
 }
