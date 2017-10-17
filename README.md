@@ -19,11 +19,11 @@
 
 ## Technologies Used
 
-* Only html, bootstrap.min.css and css
+* Only html, bootstrap.min.css, jquery and css
 
 ## Support and contact details
 
-* If you have any comments contact me at https://github.com/montecarlos97/ip_project1.git
+* If you have any comments contact me at https://github.com/montecarlos97/montecarlos97.github.io.git
 
 ### License
 
