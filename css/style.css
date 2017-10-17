@@ -2,3 +2,9 @@ body{
 	background-image: url("../images/black_light_dark_figures_73356_1920x1080.jpg");
 	background-attachment: fixed;
 }
+$("#hide-show").click(function(){
+	$("#hide").show();
+	});
+$("#hide-show").click(function(){
+	$("#hide").hide();
+	});
