@@ -1,11 +1,28 @@
-$function(){
-    $("#button").click(function(){
-        $("#div").animate({
-            right: '250px',
-            opacity: '0.5',
-            height: '150px',
-            width: '150px'
-        });
-    });
-};
-alert("hello");
+// $(function(){
+// 	$("#button").click(function(){
+// 		$("#hide").toggle();
+// });
+// });
+// alert("hello")
+
+// $(document).ready(function() {
+//         $("button#hello").click(function() {
+//           $("ul").prepend("<li>Hello!</li>");
+//         });
+
+//         $("button#goodbye").click(function() {
+//           $("ul").prepend("<li>Goodbye!</li>");
+//         });
+
+//         $("button#stop").click(function() {
+//           $("ul").prepend("<li>Stop copying me!</li>");
+//         });
+//       });
+
+
+
+$(document).ready(function() {
+    $('.carousel').carousel({interval: 7000});
+  });
+
+ 

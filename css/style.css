@@ -1,10 +1,270 @@
-body{
-	background-image: url("../images/black_light_dark_figures_73356_1920x1080.jpg");
-	background-attachment: fixed;
+*{
+    margin: 0;
+    padding: 0;
 }
-$("#hide-show").click(function(){
-	$("#hide").show();
-	});
-$("#hide-show").click(function(){
-	$("#hide").hide();
-	});
+
+body{
+    background-image: url(../images/wolfpac.jpg);
+    /*background-image: url(../images/zebra.jpg) 1080px;*/
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+}
+
+#nav-float ul{
+    list-style: none;
+}
+
+#nav-float ul li{
+    display: inline-block;
+}
+
+#nav-float ul li a{
+    text-decoration: none;
+    padding: 0 10px; 
+    font-weight: bold;
+}
+
+#nav-float ul li a:hover{
+    background-color: lime;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px){
+    #nav-float {
+        margin-left: 450px;
+    }
+}
+
+/* section 1 starts here*/
+#second{
+    background-image: url(../images/laptop.jpg);
+    padding: 100px 0;
+    margin-top: 250px;
+    position: relative;
+    background: cover;
+    opacity: 0.7;
+}
+
+.txt-ctr{
+    text-align: center;
+}
+
+.txt-ctr h1{
+    border-radius: 10px;
+    font-size: 100px; 
+    text-shadow: 4px 4px #727272;
+}
+
+.txt-ctr a{
+    font-weight: bold;
+    padding: 10px;
+    font-family: times;
+    letter-spacing: 5px;
+    font-size: 30px;
+    border-radius: 30%;
+    text-decoration: none;
+    opacity: 1;
+    background-color: blue;
+}
+
+.txt-ctr a:hover{
+    background-color: lime;
+}
+
+#myCarousel{
+    margin-top: 200px;
+}
+
+#tonney{
+    opacity: 0.7;
+}
+
+#holder{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#holder button{
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-width: 0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#cards{
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.card-block button{
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border-width: 0;
+}
+
+#order{
+    list-style: none;
+    text-align: center;
+}
+
+#order li{
+    display: inline-block;
+    text-align: center;
+}
+
+#order li p{
+    font-weight: bold;
+}
+#tonney{
+    font-weight: bold; 
+    color: blue; 
+    border:1px solid #dddddd; 
+    border-width: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#details{
+    padding: 9%;
+    background-image: url(../images/notebook.jpg);
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#contacts{
+    background-color: #0769ad;
+    padding: 10px;
+    text-align: center;
+}
+
+#sbscrb{
+    background-color: #0769ad;
+    padding: 30px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#frm{
+    font-size: 20px;
+    text-align: center;
+}
+
+#frm label{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+#frm input{
+    opacity: 0.7;
+    background: white;
+    width: 40%;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#frm button{
+    width: 25%;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+#frm button:hover{
+    background-color: blue;
+}
+
+footer{
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+footer p{
+    bottom: 0;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

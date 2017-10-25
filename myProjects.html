@@ -4,17 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="Author" content="Magaki Tonney">
-	<meta http-equiv="refresh" content="20">
+	<!-- <meta http-equiv="refresh" content="50"> -->
 	<meta name="viewport" content="width=intial-width, initial-scale=1.0">
 	<title>ip project</title>
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<script src="script/bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="script/javascript.min.css"> -->
 	<style>
 		.jumbotron{
 			border-radius: 0;
@@ -24,21 +21,24 @@
 	</style>
 	<script src="scripts/jquery-3.2.1.js"></script>
 	<script src="scripts/script.js"></script>
+	<script type="text/javascript">
+
+	</script>
 </head>
 <body>
 	<div class="jumbotron">
 		<nav>
-			<ul class="nav justify-content-center nav-pills">
+			<ul class="nav justify-content-center nav-pills p-5 font-weight-bold ">
 				<li class="nav-item btn-lg">
-					<a href="index.html" class="nav-link active">HOME<span class="sr-only">(current)</span></a>
+					<a href="index.html" class="nav-link active p-4">HOME<span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item btn-lg">
+				<li class="nav-item btn-lg p-4">
 					<a href="#" class="nav-link">PROJECTS</a>
 				</li>
-				<li class="nav-item btn-lg">
+				<li class="nav-item btn-lg p-4">
 					<a href="#" class="nav-link">CONTACTS</a>
 				</li>
-				<li class="nav-item btn-lg">
+				<li class="nav-item btn-lg p-4">
 					<a href="#" class="nav-link">MORE</a>
 				</li>
 			</ul>
@@ -49,18 +49,21 @@
 	
 
  	<div class="container">
-		<div class="jumbotron text-center"  style="border-radius: 10px">
-			<div class="container">
+		<div class="jumbotron"  style="border-radius: 10px">
+			<div class="container text-center">
 				<h1 style="font-size: 60px">Welcome To My Website</h1>
-				<button id="button" class="btn btn-secondary font-weight-bold" ><a href="#" style="font-size: 20px; color: black; " id="hide-show">Start Project View</a></button>
+				<button id="button" class="btn btn-secondary font-weight-bold p-4" ><a href="#" style="font-size: 20px; color: black; text-decoration: none;">View my Projects</a></button>
 			</div>
-			
+			<div id="hide">
+				<div class="container p-0 m-0">
+					<div class="jumbotron">
+						<h2 class="font-weight-bold">I love this <kbd class="p-2">matrix</kbd></h2>
+						<iframe src="http://montecarlos97.github.io" width="900px" height="auto"></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div id="hide">
-		<div class="jumbotron">
-		</div>
-	</div>
 </body>
 </html>
