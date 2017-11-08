@@ -4,21 +4,61 @@
 }
 
 body{
+    padding: 0;
+    margin: 0;
     background-image: url(../images/wolfpac.jpg);
-    /*background-image: url(../images/zebra.jpg) 1080px;*/
+    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 header{
-    background-color: black;
-    padding: 10px;
+    align-items: center;
+    background: #fefefe;
+    border-bottom: 3px solid #bcbcbc;
+    display: flex;
+    font-size: 1.6em;
+    height: 15vh;
+    justify-content: space-around;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-brand{
+    opacity: 0.6;
+    left: 0;
+}
+
+#navs{
+    left: 0;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 1000;
+    border-radius: 10px;
+    color: #fe5621;  
+    font-family: serif; 
+    font-family: Oswald,sans-serif;
+    padding: 6vh 0;
+
+}
+
+#navs:hover{
+    cursor: pointer;
+}
+
+#nav-float{
+    font-size: 30px; 
+    color: #02a8f3;
+    font-family: Oswald,sans-serif;
 }
 
 #nav-float ul{
     list-style: none;
+    text-align: center;
 }
 
 #nav-float ul li{
@@ -26,14 +66,18 @@ header{
 }
 
 #nav-float ul li a{
+    padding: 6vh 10px;
     text-decoration: none;
-    padding: 0 10px; 
-    font-weight: bold;
+    font-weight: 700;
+    color: gray;
 }
 
 #nav-float ul li a:hover{
-    background-color: lime;
-    padding: 10px;
+
+    opacity: 0.7;
+    background-color: #bcbcbc;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
     border-radius: 10px;
 }
 
@@ -44,39 +88,102 @@ header{
 }
 
 /* section 1 starts here*/
+#section{
+    margin-top: 15vh;
+}
+
 #second{
-    background-image: url(../images/laptop.jpg);
-    padding: 100px 0;
-    margin-top: 250px;
-    position: relative;
-    background: cover;
-    opacity: 0.7;
+    background-color: #02a8f3;
+    color: #fefefe;
+    font-family: Oswald,sans-serif;
+    min-height: 70vh;
+    padding: 130px 0;
 }
 
 .txt-ctr{
     text-align: center;
 }
 
-.txt-ctr h1{
-    border-radius: 10px;
-    font-size: 100px; 
-    text-shadow: 4px 4px #727272;
+.txt-ctr p{
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    font-size: 10em; 
 }
 
-.txt-ctr a{
-    font-weight: bold;
-    padding: 10px;
-    font-family: times;
-    letter-spacing: 5px;
-    font-size: 30px;
-    border-radius: 30%;
-    text-decoration: none;
-    opacity: 1;
-    background-color: blue;
+.divider{
+    border-width: 1px;
+    border-style: solid;
+    margin: 20px auto;
+    position: relative;
+    width: 50vw;
+    color: #fefefe;
+    border-color: #fefefe;
+    box-sizing: border-box;
 }
 
-.txt-ctr a:hover{
-    background-color: lime;
+.tag_line{
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+#arrow{
+    content: " ";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 0px;
+    border-top: 10vh solid rgb(2, 168, 243);
+    border-left: 10vh solid transparent;
+    border-right: 10vh solid transparent;
+    margin: 0px auto;
+}
+
+#work{
+    background-color: rgb(254, 254, 254);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    justify-content: center;
+    padding: 7vh 0px;
+}
+
+#work-span1{
+    font-weight: 700;
+    color: rgb(254, 86, 33);
+    font-family: Oswald, sans-serif;
+    display: block;
+    font-size: 10em;
+    margin-top: 0;
+    text-align: center;
+}
+
+#work-span2{
+    font-weight: 700;
+    color: rgb(116, 116, 116);
+    font-family: Oswald, sans-serif;
+    display: block;
+    font-size: 3em;
+    margin-top: 0;
+    text-align: center;
+}
+
+#work-hr{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(254, 86, 33);
+    margin: 20px auto;
+    position: relative;
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.work_content{
+    width: 90%;
+    background-color: rgba(189, 189, 189, 0.2);
+    display: flex;
 }
 
 #myCarousel{
@@ -140,33 +247,49 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#details{
-    padding: 9%;
-    background-image: url(../images/notebook.jpg);
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-size: cover;
-    position: relative;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+footer{
+    background: #02a8f3;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+footer p{
+    bottom: 0;
+    float: right;
 }
 
 #contacts{
-    background-color: #0769ad;
+    display: flex;
+    flex-flow: column;
+    background-color: #fefefe;
     padding: 10px;
     text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    position: relative;
+}
+
+#contacts h1{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#contact_hr{
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    box-sizing: border-box;
 }
 
 #sbscrb{
-    background-color: #0769ad;
+    position: relative;
+    background-color: #13a8e8;
     padding: 30px;
     box-sizing: border-box;
     float: right;
 }
 
 #frm{
-    font-size: 20px;
     text-align: center;
 }
 
@@ -174,39 +297,32 @@ header{
     display: block;
     font-size: 30px;
     font-weight: bold;
-    font-family: serif;
+    font-family: Oswald, sans-serif;
 }
 
 #frm input{
+    text-align: center;
     opacity: 0.7;
     background: white;
     width: 40%;
     border-width: 0;
     border-radius: 10px;
     padding: 10px;
+    font-size: 2em;
 }
 
 #frm button{
+    font-size: 2em;
     width: 25%;
     border-width: 0;
     border-radius: 10px;
     padding: 10px;
     background-color: white;
+    font-family: Oswald, sans-serif;
 }
 
 #frm button:hover{
     background-color: blue;
-}
-
-footer{
-    font-size: 20px;
-    background: black;
-    color: white;
-}
-
-footer p{
-    bottom: 0;
-    float: right;
 }
 
 
